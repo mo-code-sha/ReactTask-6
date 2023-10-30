@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
-import abhiImage from "./Basera.jpg";
+import abhiImage from "./moksha.jpg";
 function App() {
   const [isMenuOpen, setMenuOpen] = useState(false);
   const [showTopButton, setShowTopButton] = useState(false);
@@ -46,8 +46,8 @@ function App() {
     <div className="App">
       <header className={`user ${isMenuOpen ? 'toggle' : ''}`}>
         <div className="user">
-          <img src={abhiImage} alt="Basera" /> {/* Replace with image URL */}
-          <h3 className="Name">Basera</h3>
+          <img src={abhiImage} alt="moksha" /> {/* Replace with image URL */}
+          <h3 className="Name">moksha</h3>
         </div>
         <nav className="navbar">
           <ul>
@@ -63,7 +63,7 @@ function App() {
 
       <section className="home" id="home">
         <h3>HI friends !</h3>
-        <h1>I'M <span>Basera</span></h1>
+        <h1>I'M <span>moksha</span></h1>
       </section>
 
       {/* Rest of your code... */}
